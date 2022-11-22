@@ -16,6 +16,6 @@ if (dayNumber > 5)
 }
 else txtResult = $", рабочий день недели.";
 
-System.Console.WriteLine();
-System.Console.WriteLine($"{dayNumber}-й день недели - это {Days[dayNumber - 1]}{txtResult}");
-System.Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine($"{dayNumber}-й день недели - это {Days[dayNumber - 1]}{txtResult}");
+Console.WriteLine();
