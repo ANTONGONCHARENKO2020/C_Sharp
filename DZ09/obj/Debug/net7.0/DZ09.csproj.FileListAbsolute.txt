@@ -1,0 +1,15 @@
+C:\Users\Антон\Desktop\HomeWork2\DZ09\bin\Debug\net7.0\DZ09.exe
+C:\Users\Антон\Desktop\HomeWork2\DZ09\bin\Debug\net7.0\DZ09.deps.json
+C:\Users\Антон\Desktop\HomeWork2\DZ09\bin\Debug\net7.0\DZ09.runtimeconfig.json
+C:\Users\Антон\Desktop\HomeWork2\DZ09\bin\Debug\net7.0\DZ09.dll
+C:\Users\Антон\Desktop\HomeWork2\DZ09\bin\Debug\net7.0\DZ09.pdb
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\DZ09.csproj.AssemblyReference.cache
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\DZ09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\DZ09.AssemblyInfoInputs.cache
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\DZ09.AssemblyInfo.cs
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\DZ09.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\DZ09.dll
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\refint\DZ09.dll
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\DZ09.pdb
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\DZ09.genruntimeconfig.cache
+C:\Users\Антон\Desktop\HomeWork2\DZ09\obj\Debug\net7.0\ref\DZ09.dll
