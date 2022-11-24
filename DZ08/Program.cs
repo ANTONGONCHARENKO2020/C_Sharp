@@ -8,23 +8,17 @@
 */
 
 Console.WriteLine("Введите пятизначное число:");
-string writeTxt = Console.ReadLine();
-string txtToCheck = writeTxt.ToLower().Replace(" ","");
-int length = txtToCheck.Length;
-string result = "не является";
+string numberline = Console.ReadLine().Replace(" ","");
+int maxindex = numberline.Length - 1;
+string result = "является";
 
-bool IsPalindrome(string p)
-{
-    int count = 0;
-    while (count <= length)
+for (int i = 0; i <= maxindex; i++) {
+
+    if (numberline[i] != numberline[maxindex - i])
     {
-        if (txtToCheck[count] != txtToCheck[length - 1]) return false;
-        length--;
-        count++;
-    }
-    return true;
+        result = "не является";
+        break;
+    }    
 }
 
-if (IsPalindrome(txtToCheck)) result = "является";
 Console.WriteLine($"Введенное значение {result} палиндромом");
-Console.WriteLine();
