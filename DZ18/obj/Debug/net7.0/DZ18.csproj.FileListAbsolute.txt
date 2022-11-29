@@ -1,0 +1,15 @@
+C:\Users\Антон\Desktop\HomeWork2\DZ18\bin\Debug\net7.0\DZ18.exe
+C:\Users\Антон\Desktop\HomeWork2\DZ18\bin\Debug\net7.0\DZ18.deps.json
+C:\Users\Антон\Desktop\HomeWork2\DZ18\bin\Debug\net7.0\DZ18.runtimeconfig.json
+C:\Users\Антон\Desktop\HomeWork2\DZ18\bin\Debug\net7.0\DZ18.dll
+C:\Users\Антон\Desktop\HomeWork2\DZ18\bin\Debug\net7.0\DZ18.pdb
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\DZ18.csproj.AssemblyReference.cache
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\DZ18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\DZ18.AssemblyInfoInputs.cache
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\DZ18.AssemblyInfo.cs
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\DZ18.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\DZ18.dll
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\refint\DZ18.dll
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\DZ18.pdb
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\DZ18.genruntimeconfig.cache
+C:\Users\Антон\Desktop\HomeWork2\DZ18\obj\Debug\net7.0\ref\DZ18.dll
