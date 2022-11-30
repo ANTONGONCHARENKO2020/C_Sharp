@@ -1,49 +1,50 @@
-﻿/*
-Задача №17. Напишите программу, которая принимает на вход координаты точки (X и Y), 
-причем X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
-*/
+﻿void FillArray(int[,] array)
+{
+    for (int m = 0; m < array.GetLength(0); m++)
+    {
+        for (int n = 0; n < array.GetLength(1); n++)
+        {
+            array[m, n] = new Random().Next(1, 10);
+        }
+    }
+}
+void PrintArray(int[,] array)
+{
+    for (int m = 0; m < array.GetLength(0); m++)
+    {
+        for (int n = 0; n < array.GetLength(1); n++)
+        {
+            Console.Write($"{array[m, n]} ");
+        }
+        Console.WriteLine();
+    }
+}
+void Replace(int[,] array)
+{
+    // for (int m = 0; m < array.GetLength(0); m++)
+    // {
+    //     for (int n = 0; n < array.GetLength(1); n++)
+    //     {
+    //         if ((m % 2 == 0) && (n % 2 == 0))
+    //         {
+    //             array[m, n] = array[m, n] * array[m, n];
+    //         }
+    for (int m = 0; m < array.GetLength(0); m += 2)
+    {
+        for (int n = 0; n < array.GetLength(1); n += 2)
+        {
+            array[m, n] = array[m, n] * array[m, n];
+        }
+    }
+}
 
-int GetQuarterFromCoordinate(int x, int y)
-{
-    int quarter = 0;
-    if (x > 0 && y > 0)
-    {
-        quarter = 1;
-    }
-    else if (x < 0 && y > 0)
-    {
-        quarter = 2;
-    }
-    else if (x < 0 && y < 0)
-    {
-        quarter = 3;
-    }
-    else if (x > 0 && y < 0)
-    {
-        quarter = 4;
-    }
-    return quarter;
-}
-int getNumberFromUser(string message)
-{
-    int result = 0;
-    Console.WriteLine(message);
-    result = Convert.ToInt32(Console.ReadLine());
-    return result;
-}
-void showInformationAboutQuarter(int x, int y, int quarter)
-{
-    if (quarter != 0)
-    {
-        Console.WriteLine($"Точка с координатами [{x}:{y}] находиться в {quarter} четверти ");
-    }
-    else
-    {
-        Console.WriteLine($"Точка с координатами [{x}:{y}] находиться оси координат ");
-    }
-}
-int x = getNumberFromUser("Введите X:");
-int y = getNumberFromUser("Введите Y:");
-int quarter = GetQuarterFromCoordinate(x, y);
-showInformationAboutQuarter(x, y,quarter);
+int m = 5;
+int n = 5;
 
+int[,] array = new int[m, n];
+
+FillArray(array);
+PrintArray(array);
+Console.WriteLine();
+Replace(array);
+PrintArray(array);
